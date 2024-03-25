@@ -8,7 +8,7 @@ const Projects = ()=>{
 
             <Card
             heading ="Portfolio site"
-            img="./images/pf.png"
+            img="./images/pf.PNG"
             link="https://codesshuv.github.io/Portfolio-site/"
             />
             <Card

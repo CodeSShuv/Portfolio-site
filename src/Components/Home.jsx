@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section className='Home'>
       <div className="map">
-        <img src="./nepal.png" alt="" />
+        <img src="./images/nepal.png" alt="" />
       </div>
         <div className="home-items-container">
             <div className="avatar">
