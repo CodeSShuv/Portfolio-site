@@ -8,7 +8,7 @@ const Home = () => {
       </div>
         <div className="home-items-container">
             <div className="avatar">
-                <img src="./avatar.png" alt="" />
+                <img src="./images/avatar.png" alt="" />
             </div>
             <div className="intro">
             <h2>Hi! Me <span className='highlight'>Shuvam Gautam.</span></h2>

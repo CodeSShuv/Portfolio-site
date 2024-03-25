@@ -18,8 +18,8 @@ const Projects = ()=>{
             />
             <Card
              heading ="Anonymous Confession"
-             img = "./images/bhawana.png"
-             link ="https://codesshuv.github.io/tic-tac-toe/"/>
+             img = "./images/bhawana.PNG"
+             link ="https://anonymousconfession.netlify.app/"/>
            
             </div>
         </section>
