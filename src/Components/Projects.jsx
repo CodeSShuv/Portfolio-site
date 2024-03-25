@@ -8,17 +8,17 @@ const Projects = ()=>{
 
             <Card
             heading ="Portfolio site"
-            img="./pf.png"
+            img="./images/pf.png"
             link="https://codesshuv.github.io/Portfolio-site/"
             />
             <Card
             heading ="Tic Tac Toe"
-                img = "./tictactoe.png"
+                img = "./images/tictactoe.png"
                 link ="https://codesshuv.github.io/tic-tac-toe/"
             />
             <Card
              heading ="Anonymous Confession"
-             img = "./bhawana.png"
+             img = "./images/bhawana.png"
              link ="https://codesshuv.github.io/tic-tac-toe/"/>
            
             </div>

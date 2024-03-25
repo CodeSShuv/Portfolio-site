@@ -9,13 +9,13 @@ const Skills = () => {
         <div className="card-container">
                 
             <Card
-                img = {"./js-icon.png"}
+                img = {"./images/js-icon.png"}
                 heading ={"JS"}
                 progress = {98}
                 theme ={"js"}
             />
              <Card
-                img = {"./py-icon.png"}
+                img = {"./images/py-icon.png"}
                 heading ={"Python"}
                 progress = {98}
                 theme ={"py"}
@@ -27,13 +27,13 @@ const Skills = () => {
         <div className="card-container">
                 
             <Card
-                img = {"./html-css.jpg"}
+                img = {"./images/html-css.jpg"}
                 heading ={"Html,Css"}
                 progress = {98}
                 theme="html"
             />
              <Card
-                img = {"./reactjs.png"}
+                img = {"./images/reactjs.png"}
                 heading ={"React.js"}
                 progress = {98}
                 theme = "react"
