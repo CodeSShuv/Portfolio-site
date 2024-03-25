@@ -21,7 +21,7 @@ const App = () => {
   
 
     return (
-      <Router>
+      <Router basename={window.location.pathname || ''} >
       <NavState>
       <div className='mainContainer'>
         <SideNavbar/>
