@@ -1,0 +1,35 @@
+.Skills{
+    
+    /* align-items: center; */
+    gap: 3rem;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow-y: auto;
+    /* background-color: red; */
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+    
+}
+.languages{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    padding: 1rem;
+}
+.languages h2{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--dim-hightlight);
+}

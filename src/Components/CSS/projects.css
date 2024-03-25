@@ -1,0 +1,21 @@
+.projects{
+    gap: 3rem;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow-y: auto;
+    background: #000;
+}
+.projects-container{
+    width: 100%;
+    /* height: 200vh; */
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    overflow-y: auto;
+}

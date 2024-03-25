@@ -1,0 +1,65 @@
+.side-nav-bar{
+    background-color: #bdbdbdb9;
+    display: inline-block;
+    width: 18rem;
+    height: 100vh;
+    overflow: visible;
+  
+}
+.sidebar-items-container{
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 6rem;
+    box-sizing: border-box;
+    /* overflow-wrap: break-word; */
+    
+}
+.profile-pic-container{
+    width: 80%;
+    height:54%;
+    /* margin-top: -6rem; */
+    border-radius: 50%;
+    background-color: white;
+}
+.navigations{
+    /* margin-top: 8rem; */
+    margin-bottom:8rem ;
+    overflow: visible;
+}
+.navigations ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    overflow: visible;
+}
+.navigations ul li{
+    font-size: 28px; 
+    overflow: visible;
+}
+.navigations ul li a{
+    text-decoration: none;
+}
+.navbtn{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color:var(--dim-nav-letter);
+    cursor: pointer;
+}
+.navigations ul li a:hover{
+    color: var(--dim-hightlight);
+    text-decoration: underline;
+}
+.active{
+    color: var(--dim-hightlight);
+    text-decoration: underline;
+}
