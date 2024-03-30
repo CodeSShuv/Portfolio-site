@@ -1,8 +1,9 @@
-import React,{useState}from 'react'
+import React,{useEffect, useState}from 'react'
 import NavContext from '../NavContext'
 
 const NavState = (props) => {
     const [nav,setNav] = useState("home");
+    const [offCanvas,setOffCanvas] = useState('unhide');
     const changeNav = (e)=>{
         if(e.target.id === "Home"){
             setNav("home");
@@ -14,8 +15,20 @@ const NavState = (props) => {
             setNav("contact");
         }
     }
+    const toggleCanvas = ()=>{
+        if(offCanvas === 'hide'){
+            console.log(offCanvas);
+            setOffCanvas('unhide');
+        }else if(offCanvas === "unhide"){
+            console.log(offCanvas);
+            setOffCanvas("hide");
+        }
+    }
+    useEffect(()=>{
+        
+    },[offCanvas])
   return (
-    <NavContext.Provider value ={{nav,changeNav}}>
+    <NavContext.Provider value ={{nav,changeNav,offCanvas,toggleCanvas}}>
         {props.children}
     </NavContext.Provider>
   )

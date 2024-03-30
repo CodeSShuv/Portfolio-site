@@ -63,3 +63,84 @@
     color: var(--dim-hightlight);
     text-decoration: underline;
 }
+#hide-tog{
+    display: none;
+}
+@media only screen and (width<1080px) {
+    
+
+    .profile-pic-container{
+        width: 80%;
+        height:40%;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .side-nav-bar{
+        background-color: #bdbdbdb9;
+        display: inline-block;
+        width: 13rem;
+        height: 100vh;
+        overflow: visible;
+      
+    }
+
+    .navigations ul li a{
+        text-decoration: none;
+        font-size:1.4rem;
+    }
+    
+}
+@media only screen and (width<480px) {
+    .side-nav-bar{
+        background-color: #17171735;
+        filter: blur(30);
+        display: inline-block;
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+        bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        padding: 0;
+        border-radius: 10rem;
+    }
+    .sidebar-items-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: antiquewhite; */
+    }
+    .navigations{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* background-color: aliceblue; */
+        margin-top: 8rem;
+    }
+    .navigations ul{
+        flex-flow: row;
+    }
+      .navigations ul li a{
+        text-decoration: none;
+        font-size:1.6rem;
+    }
+    .profile-pic-container{
+        display: none;
+    }
+    
+
+    #hide-tog{
+        display: block;
+    }
+    .profile-pic-container{
+        width: 80%;
+        height:40%;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+}

@@ -23,6 +23,9 @@ const App = () => {
     return (
       <Router basename={window.location.pathname || ''} >
       <NavState>
+        <div className="m-nav">
+          <button onClick={navOption.toggleCanvas}>=</button>
+        </div>
       <div className='mainContainer'>
         <SideNavbar/>
         <div className="pages">

@@ -29,8 +29,22 @@
   height: 100vh;
   /* background-color: purple; */
 }
-.map{
-  position: absolute;
-  right: 10rem;
-  opacity: 15%;
+
+.m-nav{
+padding-inline-start: .4rem;
+padding: .4rem;
+display:none;
+}
+.m-nav button{
+  width: 2rem;
+  height: 3rem;
+  font-size: 2rem;
+  border: 1px solid black;
+  background-color:none;
+  border-radius: 1rem;
+}
+@media only screen and(width < 800px){
+  .m-nav{
+    display: block;
+  }
 }

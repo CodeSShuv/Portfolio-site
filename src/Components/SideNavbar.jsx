@@ -5,12 +5,14 @@ import NavContext from '../Contexts/NavContext'
 const SideNavbar = () => {
   const navOption = useContext(NavContext);
   return (
-    <nav className='side-nav-bar'>
-        <div className="sidebar-items-container">
+    <nav className={`side-nav-bar`}>
+      {/* {console.log(navOption.offCanvas)} */}
+     
+        <div className="sidebar-items-container" >
         <div className='profile-pic-container'>
             <img src="" alt="" />
         </div>
-        <div className="navigations">
+        <div className="navigations" >
             <ul>
                 <li><Link id="Home" className={`navbtn${navOption.nav === "home"?" active":""}`} onClick={navOption.changeNav} to='/' >Home</Link></li>
                 <li>

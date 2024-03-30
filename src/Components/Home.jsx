@@ -3,10 +3,11 @@ import "./CSS/home.css"
 const Home = () => {
   return (
     <section className='Home'>
-      <div className="map">
+     
+        <div className="home-items-container">
+        <div className="map">
         <img src="./images/nepal.png" alt="" />
       </div>
-        <div className="home-items-container">
             <div className="avatar">
                 <img src="./images/avatar.png" alt="" />
             </div>

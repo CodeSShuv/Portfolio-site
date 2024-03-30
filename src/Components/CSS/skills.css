@@ -13,9 +13,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem;
     gap: 3rem;
-    
+    padding-bottom: 10rem;
 }
 .languages{
     width: 100%;

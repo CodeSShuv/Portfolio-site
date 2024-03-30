@@ -5,7 +5,6 @@ const Projects = ()=>{
     return(
         <section className="projects">
             <div className="projects-container">
-
             <Card
             heading ="Portfolio site"
             img="./images/pf.PNG"
