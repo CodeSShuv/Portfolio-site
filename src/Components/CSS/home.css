@@ -13,6 +13,7 @@
     align-items: center;
     flex-flow: column;
     /* overflow: hidden; */
+    position: relative;
 }
 .avatar img{
     width: 10rem;
@@ -40,25 +41,9 @@
     position: absolute;
     right: 10rem;
     opacity: 15%;
+    z-index: -10;
   }
-@media only screen and (width<1080px) {
-    
-    .intro h2{
-        padding: 1rem;
-        font-size:2rem;
-        font-weight: 200;
-        box-sizing: content-box;
-    }
-    .avatar img{
-        width: 7rem;
-        height: 8rem;
-        /* background-color: black; */
-    }
-    .intro{
-        /* background-color: aliceblue; */
-        margin-top:-2.8rem;
-    }
-}
+
 @media only screen and (width<1080px) {
     
     .intro h2{
@@ -101,11 +86,11 @@
         word-spacing: 0rem;
     }
     .map{
-        top: 10rem;
+        top: 17rem;
         right:1rem;
     }
     .map img{
-        height: 10rem;
-        width: 20rem;
+        height: 12rem;
+        width: 24rem;
     }
 }
